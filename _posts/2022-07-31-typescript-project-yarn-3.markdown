@@ -137,12 +137,3 @@ hello world!
 ```
 
 Congratulations on setting up your first typescript project. Wishing you happy times on your coding journey!
-
-<script src="https://utteranc.es/client.js"
-        repo="rabiddroid/rabiddroid.github.io"
-        issue-term="title"
-        label="comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
