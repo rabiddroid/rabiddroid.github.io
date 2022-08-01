@@ -42,9 +42,9 @@ yarn install
 > *One can also simply run “yarn”*
 >
 
-The folder contents look like follows
+The folder contents look should like follows
 
-![Folder Contents](https://github.com/rabiddroid/rabiddroid.github.io/blob/gh-pages/_resources/img/2022-07-31-typescript-project-yarn-3-folder-contents.png)
+<img src="{{ "/assets/img/2022-07-31-typescript-project-yarn-3-folder-contents.png" | prepend: site.baseurl | prepend: site.url}}" alt="Folder Contents" style="height: 200px; width:300px;"/>
 
 *Some details of the files/folders seen*
 
@@ -136,4 +136,4 @@ $ yarn ts-node src/index.ts
 hello world!
 ```
 
-Welcome to your first typescript project. Wishing you a happy times on your coding journey!
+Congratulations on setting up your first typescript project. Wishing you happy times on your coding journey!
