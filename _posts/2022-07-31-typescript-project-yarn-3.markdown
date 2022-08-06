@@ -10,6 +10,8 @@ categories: typescript yarn nodejs
 Are you interested in putting together your first typescript project with yarn as package manager.
 
 Then here is a quick recipe to get you on your way.
+>All sources for this example can be referenced here in *[github](https://github.com/rabiddroid/example-typescript-template)*.
+>
 
 ### Install yarn into your project
 
