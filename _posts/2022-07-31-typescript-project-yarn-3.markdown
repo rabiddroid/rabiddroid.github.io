@@ -2,7 +2,7 @@
 layout: post
 title:  "Starting a typescript project with yarn 3"
 date:   2022-07-31 20:45:39 -0700
-categories: typescript yarn nodejs
+categories: typescript yarn yarn3 nodejs
 ---
 # Starting a typescript project with yarn 3
 
@@ -119,10 +119,10 @@ hello();
 
 To keep this simple and clean without having to transpile to javascript, let’s run this with ts-node.
 
-Add ts-node to the project by:
+Add ts-node and dependency @types/node to the project by:
 
 ```bash
-yarn add ts-node --dev
+yarn add ts-node @types/node --dev
 ```
 
 Now from the project root, run the command as follows:
