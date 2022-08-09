@@ -2,7 +2,7 @@
 layout: post
 title:  "Setup jest for typescript project"
 date:   2022-08-06 20:45:39 -0700
-categories: typescript yarn yarn3 jest ts-jest test
+categories: typescript yarn yarn3 jest ts-jest test coverage
 ---
 
 Unit tests are integral to successful code implementations. Today jest is by far the most popular in the nodejs and typescript world. Let us setup jest for our typescript project.
@@ -205,6 +205,15 @@ Snapshots:   0 total
 Time:        0.501 s, estimated 1 s
 Ran all test suites.
 ```
+
+---
+**Bonus**
+> _Enable code coverage reports_
+>
+> In jest.config.(js|ts), add entry `collectCoverage: true`.
+>
+>You will now get code coverage reports when running `yarn test`.
+---
 
 🙌
 <p>Great job! Now you are one step closer to writing quality code.
