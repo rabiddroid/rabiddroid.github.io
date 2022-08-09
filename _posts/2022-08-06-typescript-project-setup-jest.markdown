@@ -210,7 +210,7 @@ Ran all test suites.
 **Bonus**
 > _Enable code coverage reports_
 >
-> In jest.config.(js\|ts), add entry `collectCoverage: true`.
+> In jest.config.[js\|ts], add entry `collectCoverage: true`.
 >
 >You will now get code coverage reports when running `yarn test`.
 ---
